@@ -536,14 +536,14 @@ footer p{
     }
 
     .tour1 img,.tour2 img,.tour3 img{
-        width: 300px;
-        height: 250px;  
-        vertical-align: text-bottom;    
+        width: 450px;
+        height: 350px;  
+        position: absolute;
     }
 
     .texto-tour1,.texto-tour2,.texto-tour3{
-        
         margin:0 auto;
+        margin-top: 45vh;
     }
 
     .texto-tour1 h1,.texto-tour2 h1,.texto-tour3 h1{
@@ -553,7 +553,13 @@ footer p{
     .aboutus{
         height: 200vh;
     }
+
+    .aboutus img{
+        float: none;
+        width: 100%;
+    }
     
+
 
 
 

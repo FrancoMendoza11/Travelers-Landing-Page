@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Dancing+Script:wght@700&family=Nunito+Sans:wght@400;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.img-fondo{
+    background-image: url(fondo-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+
+.logo{
+    margin-top: 5px;
+    display: flex;
+    border: solid white 7px;
+    padding: 7px;
+    height: 30px;
+    width: 30px;
+}
+
+.logo h1{
+    margin: 0 auto;
+    font-size: 40px;
+    font-family: 'Carter One', cursive;
+    position: absolute;
+    top: 1vh;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.logo-name{
+    margin-left: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+header nav{
+    margin-top: 20px;
+}
+
+.menu-responsive{
+    display: none;
+}
+
+.menu-responsive-btn{
+    display: none;
+}
+
+
+header div nav a{
+    margin-left:20px;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+header div nav a:hover{
+    color: yellow;
+    cursor: pointer;
+}
+
+.titulos-hero{
+    margin-top: 20vh;
+    margin-left: 25vh;
+    line-height: 75px;
+}
+
+.titulos-hero h2{
+    font-size: 40px;
+}
+
+.titulos-hero h1{
+    font-size: 130px;
+    color: yellow;
+}
+
+.titulos-hero h1 b{
+    color: white;
+    position: absolute;
+    z-index: 2;
+}
+
+.parrafo-hero{
+    margin-top: 4vh;
+    margin-left: 25vh;
+}
+
+.social{
+    margin-top: 30vh;
+    margin-left: 20vh;
+}
+
+.social i a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.social i a:hover{
+    color: yellow;
+}
+
+.superposicion1{
+    position: absolute;
+    z-index: 1;
+    height: 400px;
+    top: 45vh;
+    left: 100vh;
+    border-radius: 10px;
+    box-shadow: 3px -3px 44px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px -3px 44px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px -3px 44px 2px rgba(0,0,0,0.75);
+}
+
+.superposicion2{
+    width: 350px;
+    position: absolute;
+    z-index: 1;
+    top: 12vh;
+    left: 93vh;
+    border-radius: 10px;
+    box-shadow: 3px -3px 44px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px -3px 44px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px -3px 44px 2px rgba(0,0,0,0.75);
+}
+
+.superposicion3{
+    width: 350px;
+    position: absolute;
+    top: 30vh;
+    left: 130vh;
+    border-radius: 10px;
+    box-shadow: 3px -3px 44px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px -3px 44px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px -3px 44px 2px rgba(0,0,0,0.75);
+}
+
+
+/* Inicia section tours */
+
+.tours{
+    padding-top: 5%;
+}
+
+.tour1 img, .tour2 img ,.tour3 img{
+    float: left;
+    width: 600px;
+    border-radius: 10px;
+    margin-left: 15%;
+    margin-top: 3%;
+    margin-right: 2%;
+    box-shadow: 3px -3px 44px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px -3px 44px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px -3px 44px 2px rgba(0,0,0,0.75);
+}
+
+.tour1 h1, .tour2 h1, .tour3 h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.texto-tour2, .texto-tour3{
+    margin-top: 15vh;
+}
+
+.texto-tour1 p,.texto-tour2 p, .texto-tour3 p{
+    margin-top: 10px;
+}
+
+.tours button{
+    cursor: pointer;
+    font-size: 20px;
+    height: 60px;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+}
+
+.tours button:hover{
+    background-color: yellow;
+}
+
+.precio{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* inicia seccion about us */
+
+.aboutus{
+    margin-top: 5%;
+    background: whitesmoke;
+    height: 100vh;
+}
+
+.aboutus img{
+    float: right;
+    height: 100vh;
+    margin-right: 10%;
+    margin-left: 1%;
+}
+
+.aboutus-texto{
+    padding-top: 20vh;
+    margin-left: 10%;
+}
+
+.aboutus-texto h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.aboutus-texto p{
+    margin-top: 3%;
+}
+
+/* Inicia seccion contacto */
+
+.contact{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact h1{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+  
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+  
+label{
+    margin-bottom: 5px;
+}
+
+.email-label{
+    margin-left: 20px;
+}
+  
+input[type="text"],input[type="email"],textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+  
+button[type="submit"] {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 200px;
+    
+}
+
+.botoncontact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+  
+.name{
+    width: 250px;
+}
+
+.mail{
+    width: 250px;
+    margin-left: 20px;
+    
+}
+ 
+textarea{
+    height: 200px;
+}
+
+/* inicia footer */
+
+footer{
+    padding: 50px;
+    display: flex;
+    background-color: whitesmoke;
+}
+
+footer p{
+    margin: 0 auto;
+}
+
+/* comienza diseño responsive para tablet */
+
+@media only screen and (min-width: 767px) and (max-width: 1024px){
+
+    body{
+        width: 100%;
+    }
+
+    .img-fondo{
+        width: 100%;
+        background-image: url(hero-responsive.jpg);
+    }
+
+    header{
+        align-items: center;
+    }
+
+    .logo{
+        width: 15px;
+        height: 15px;
+        position: absolute;
+    }
+    .logo h1{
+        font-size: 25px;
+        top: -0.5vh;
+    }
+
+    .logo-name{
+        margin-left: 50%;
+    }
+
+    /* menu responsive */
+    nav {
+        display: none;
+        width: 100%;
+    }
+      
+    .menu-responsive-btn {
+        display: block;
+        background: none;
+        border: none;
+        margin-right: 40%;
+    }
+      
+    .menu-responsive {
+        font-size: 40px;
+        display: block;
+        color: white;
+    }
+      
+    nav a {
+        display: block;
+        padding: 10px;
+        border-bottom: 1px solid #fff;
+    }
+      
+    nav a:last-child {
+        border-bottom: none;
+    }
+      
+    nav.show {
+        display: block;
+        margin-top: 10px;
+    }
+
+    /* fin de menu responsive */
+
+    .superposicion1,.superposicion2,.superposicion3{
+        display: none;
+    }
+
+    .titulos-hero,.parrafo-hero{
+        margin-left: 15%;
+    }
+
+    .tour1,.tour2,.tour3{
+        display: flex;
+    }
+
+    .tour2,.tour3{
+        margin-top: 10%;
+    }
+
+    .tour3{
+        padding-bottom: 5%;
+    }
+
+    .tour1 img,.tour2 img,.tour3 img{
+        width: 400px;
+        height: 350px;
+    }
+
+    .texto-tour1,.texto-tour2,.texto-tour3{
+        margin:0 auto;
+    }
+
+    .texto-tour1 h1,.texto-tour2 h1,.texto-tour3 h1{
+        font-size: 25px;
+    }
+
+    .aboutus{
+        height: 150vh;
+    }
+
+}
+
+/* diseño responsive celular */
+
+@media only screen and (max-width: 767px){
+
+    body{
+        width: 100%;
+    }
+
+    .img-fondo{
+        width: 100%;
+        background-image: url(hero-responsive2.jpg);
+    }
+
+    header{
+        align-items: center;
+    }
+
+    .logo{
+        width: 15px;
+        height: 15px;
+        position: absolute;
+    }
+    .logo h1{
+        font-size: 25px;
+        top: -0.5vh;
+    }
+
+    .logo-name{
+        margin-left: 50%;
+    }
+
+    .titulos-hero h1{
+        font-size: 80px;    
+    }
+    .parrafo-hero,.social{
+        margin-left: 15%;
+    }
+
+    /* menu responsive */
+    nav {
+        display: none;
+        width: 100%;
+    }
+      
+    .menu-responsive-btn {
+        display: block;
+        background: none;
+        border: none;
+        margin-right: 40%;
+    }
+      
+    .menu-responsive {
+        font-size: 40px;
+        display: block;
+        color: white;
+    }
+      
+    nav a {
+        display: block;
+        padding: 10px;
+        border-bottom: 1px solid #fff;
+    }
+      
+    nav a:last-child {
+        border-bottom: none;
+    }
+      
+    nav.show {
+        display: block;
+        margin-top: 10px;
+    }
+
+    /* fin de menu responsive */
+
+    .superposicion1,.superposicion2,.superposicion3{
+        display: none;
+    }
+
+    .titulos-hero{
+        margin-left: 15%;
+    }
+
+    .tours{
+        display: block;
+    }
+
+    .tour1,.tour2,.tour3{
+        display: flex;
+    }
+
+    .tour2,.tour3{
+        margin-top: 10%;
+    }
+
+    .tour3{
+        padding-bottom: 5%;
+    }
+
+    .tour1 img,.tour2 img,.tour3 img{
+        width: 300px;
+        height: 250px;  
+        vertical-align: text-bottom;    
+    }
+
+    .texto-tour1,.texto-tour2,.texto-tour3{
+        
+        margin:0 auto;
+    }
+
+    .texto-tour1 h1,.texto-tour2 h1,.texto-tour3 h1{
+        font-size: 25px;
+    }
+
+    .aboutus{
+        height: 200vh;
+    }
+    
+
+
+
+}

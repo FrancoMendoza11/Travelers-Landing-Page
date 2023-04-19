@@ -468,9 +468,10 @@ footer p{
     .logo-name{
         margin-left: 50%;
     }
+    
     .titulos-hero{
         position: absolute;
-        left: -8vh;
+        left: -5vh;
     }
 
     .titulos-hero h1{

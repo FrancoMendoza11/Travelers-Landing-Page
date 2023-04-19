@@ -452,6 +452,7 @@ footer p{
 
     header{
         align-items: center;
+        display: flex;
     }
 
     .logo{
@@ -467,15 +468,28 @@ footer p{
     .logo-name{
         margin-left: 50%;
     }
+    .titulos-hero{
+        position: absolute;
+        right: 9vh;
+    }
 
     .titulos-hero h1{
         font-size: 80px;    
     }
-    .parrafo-hero,.social{
-        margin-left: 15%;
+    .parrafo-hero{
+        margin: 0;
+        top: 50vh;
+        left: 2vh;
+        position: absolute;
+    }
+    .social{
+        margin: 0;
+        top: 90vh;
+        position: absolute;
+        width: 100%;
     }
 
-    /* menu responsive */
+
     nav {
         display: none;
         width: 100%;
@@ -494,22 +508,6 @@ footer p{
         color: white;
     }
       
-    nav a {
-        display: block;
-        padding: 10px;
-        border-bottom: 1px solid #fff;
-    }
-      
-    nav a:last-child {
-        border-bottom: none;
-    }
-      
-    nav.show {
-        display: block;
-        margin-top: 10px;
-    }
-
-    /* fin de menu responsive */
 
     .superposicion1,.superposicion2,.superposicion3{
         display: none;

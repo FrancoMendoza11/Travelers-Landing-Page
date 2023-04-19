@@ -484,6 +484,7 @@ footer p{
     }
     .social{
         margin: 0;
+        left: 2vh;
         top: 90vh;
         position: absolute;
         width: 100%;
@@ -534,14 +535,16 @@ footer p{
     }
 
     .tour1 img,.tour2 img,.tour3 img{
-        width: 450px;
-        height: 350px;  
+        width: 350px;
+        height: 250px;  
         position: absolute;
+        left: -2vh;
     }
 
     .texto-tour1,.texto-tour2,.texto-tour3{
         margin:0 auto;
-        margin-top: 45vh;
+        margin-top: 30vh;
+        margin-left: 5vh;
     }
 
     .texto-tour1 h1,.texto-tour2 h1,.texto-tour3 h1{
@@ -556,9 +559,31 @@ footer p{
         float: none;
         width: 100%;
     }
-    
 
+    .contact{
+        justify-content: center;
+        align-items: center;
+    }
+    .contact h1{
+        margin: 0 auto;
+        padding-bottom: 2vh;
+    }
+    form,.form-row, .form-group ,.name, .mail{
+        width: 200px;
+        flex-direction: column; 
+    }
+    textarea{
+        width: 200px;
+    }
 
+    .mail , .email-label{
+        margin: 0;
+    }
+
+    button[type="submit"]{
+        width: 100px; 
+        margin: 10px auto;  
+    }
 
 
 }
